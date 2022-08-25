@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: gainsboro;
+    
+}
+.intro{
+    width: 50%;
+    margin:30px auto;
+    text-align: center;
+    text-transform: capitalize;
+}
+p span{
+    font-family: 'Hurricane', cursive;
+    font-size: 30px;
+    color: blue;
+    
+}
+.container{
+    width: 300px;
+    background: ghostwhite;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px;
+    padding: 5px;
+}
+.screen{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    border: 2px solid gray;
+    padding: 8px;
+    font-size: 20px;
+}
+input:focus{
+    outline: 0;
+}
+.btn-container{
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.btn{
+    padding: 5px 10px;
+    margin: 2px;
+    font-size: 20px;
+    
+}
+.equl{
+    border: 0;
+    color: white;
+    background: blue;
+}
+.reset{
+    border: 0;
+    color: white;
+    background: orange;
+}
+.del{
+    border: 0;
+    color: white;
+    background: red;
+}
